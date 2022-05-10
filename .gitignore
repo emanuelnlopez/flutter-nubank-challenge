@@ -1,0 +1,93 @@
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# Remember to never publicly share your keystore.
+# See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+key.properties
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# iOS/mac/XCode related
+**/**/*.mode1v3
+**/**/*.mode2v3
+**/**/*.moved-aside
+**/**/*.pbxuser
+**/**/*.perspectivev3
+**/**/*sync/
+**/**/.sconsign.dblite
+**/**/.tags*
+**/**/.vagrant/
+**/**/DerivedData/
+**/**/Icon?
+**/Flutter/ephemeral/
+**/Pods/
+**/.symlinks/
+**/profile
+**/dgph
+**/xcuserdata
+**/.generated/
+**/Flutter/App.framework
+**/Flutter/Flutter.framework
+**/Flutter/Generated.xcconfig
+**/Flutter/app.flx
+**/Flutter/app.zip
+**/Flutter/flutter_assets/
+**/Flutter/flutter_export_environment.sh
+**/ServiceDefinitions.json
+**/Runner/GeneratedPluginRegistrant.*
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+*.vmservice
+
+# Flutter/Dart/Pub related
+## Directory created by dartdoc
+**/doc/api/
+**/.dart_tool/
+**/.flutter-plugins
+**/.packages
+**/.pub-cache/
+**/.pub/
+## Conventional directory for build outputs
+**/build/
+
+# Generated files
+**/lib/generated_plugin_registrant.dart
+**/output
+**/ignore
+
+# Exceptions to above rules.
+!**/**/default.mode1v3
+!**/**/default.mode2v3
+!**/**/default.pbxuser
+!**/**/default.perspectivev3
+!**/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+/target/
+**/Flutter/Flutter.podspec
+**/.flutter-plugins-dependencies
+**/ozzie
+**/android/.project
+**/android/.settings/org.eclipse.buildship.core.prefs
+**/.last_build_id
+**/GeneratedPluginRegistrant.swift
+**/reports
+**/automation2.key
+**/settings_aar.gradle
