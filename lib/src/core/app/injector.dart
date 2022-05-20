@@ -25,7 +25,7 @@ class DefaultInjector implements Injector {
   late ShortenUrlUseCase _shortenUrlUseCase;
 
   @override
-  get homeViewModel => HomeViewModel(
+  HomeViewModel get homeViewModel => HomeViewModel(
         shortenUrlUseCase: _shortenUrlUseCase,
       );
 
