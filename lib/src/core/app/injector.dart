@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:codingexercise/src/features/home/home_view_model.dart';
 import 'package:codingexercise/src/services/client/client.dart';
-import 'package:codingexercise/src/use_cases/shorten_url_use_case.dart';
+import 'package:codingexercise/src/use_cases/use_cases.dart';
 
 abstract class Injector {
   HomeViewModel get homeViewModel;

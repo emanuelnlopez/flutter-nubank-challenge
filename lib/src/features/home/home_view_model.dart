@@ -1,6 +1,6 @@
 import 'package:codingexercise/src/core/core.dart';
 import 'package:codingexercise/src/model/model.dart';
-import 'package:codingexercise/src/use_cases/shorten_url_use_case.dart';
+import 'package:codingexercise/src/use_cases/use_cases.dart';
 
 enum HomeViewState {
   completed,
