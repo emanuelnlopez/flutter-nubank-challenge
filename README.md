@@ -1,16 +1,22 @@
-# codingexercise
+# Flutter NuBank coding exercise
 
-A new Flutter project.
+This project was developed as a coding exercise for a technical interview for a Flutter position in NuBank.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This exercise aims at creating a small application that allows you to shorten links and displays a history of the recently shortened links to your favorite websites.
 
-A few resources to get you started if this is your first Flutter project:
+In order to do this, you'll use an already implemented service that will handle all the backend logic, which is to accept the links and return an alias for them.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+This application is composed of only one screen.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It has:
+- One text input in which the user can type the website URL to shorten;
+- One button which will trigger the action of sending this link to the service;
+- A list with the recently shortened links/aliases.
+
+## Screenshots
+
+Empty Screen | Request Sent
+--- | ---
+<img width="300" src="extra/screenshot_01.png"> | <img width="300" src="extra/screenshot_02.png">
