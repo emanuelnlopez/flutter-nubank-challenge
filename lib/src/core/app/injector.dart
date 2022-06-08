@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:codingexercise/src/features/home/home_view_model.dart';
 import 'package:codingexercise/src/services/client/client.dart';
+import 'package:codingexercise/src/services/services.dart';
 import 'package:codingexercise/src/use_cases/use_cases.dart';
 
 abstract class Injector {
@@ -39,7 +40,9 @@ class DefaultInjector implements Injector {
       _networkClient = NetworkClient();
 
       _shortenUrlUseCase = ShortenUrlUseCase(
-        networkClient: _networkClient,
+        urlShortenerService: UrlShortenerServiceImpl(
+          networkClient: _networkClient,
+        ),
       );
 
       _initialized = true;
