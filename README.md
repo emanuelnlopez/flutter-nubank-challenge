@@ -1,4 +1,4 @@
-# Flutter NuBank coding exercise
+# flutter-nubank-challenge
 
 This project was developed as a coding exercise for a technical interview for a Flutter position in NuBank.
 
